@@ -62,3 +62,6 @@ package-lock.json
 
 # semantic-ui
 client/dist/semantic
+
+# webpack bundle
+client/dist/bundle.js
