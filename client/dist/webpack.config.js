@@ -1,5 +1,5 @@
 const path = require('path');
-const SRC_DIR = path.join(__dirname, '/react');
+const SRC_DIR = path.join(__dirname, '../react');
 const DIST_DIR = path.join(__dirname);
 
 const webpackConfig = {

@@ -7,8 +7,8 @@ const getPlayers = (req, res) => {
 }
 
 const savePlayer = (req, res) => {
-  db.saveOne(req.body, (response) => {
-    res.status(201).send(response)
+  db.saveOne(req.body, (data) => {
+    res.status(201).send(data)
   });
 }
 
